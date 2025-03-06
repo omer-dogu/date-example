@@ -1,0 +1,54 @@
+# Ignore build directories
+/build*/
+/env*/
+!build*/meson-install
+
+# Ignore Meson generated files
+meson-logs/
+meson-private/
+
+# Ignore compiled object files
+*.o
+*.obj
+
+# Ignore compiled libraries
+*.a
+*.so
+*.dylib
+*.dll
+
+# Ignore binaries
+*.exe
+*.out
+*.app
+
+# Ignore generated files from compilation
+*.gcno
+*.gcda
+*.prof
+
+# Ignore editor-specific files
+# Vim swap files
+*.swp
+.vscode/
+
+# Emacs backup files
+*~
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.log
+*.bak
+*.tmp
+*.ini
+*.py
+
+# Ignore compiled C source files
+*.c~
+
+# Ignore test output or logs
+test_output/
+
