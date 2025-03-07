@@ -41,6 +41,14 @@ Compile
 meson compile -C build
 ```
 
+## Naming Convention
+
+Webkit
+
+```
+clang-format -style=WebKit $(git ls-files "*.cpp" "*.h") -i
+```
+
 ## Run
 
 ```
